@@ -1,0 +1,670 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./img/background-1.jpg), url(./img/background-2.jpg);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  } 
+
+
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  html {
+  scroll-behavior: smooth;
+ }
+
+  
+/* -------------------Header strat----------------------------- */
+
+
+  .logo {
+    width: 216px;
+    height: 31px;
+    display: flex;
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+  }
+
+
+  .nav-link, .login {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+
+
+  .header {
+    width: 100%;
+    height: 90px;;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  }
+  
+  .header-travel {
+    margin-left: 6px;
+  }
+
+  .header-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 527px;
+    margin: 10px 196px 0 158px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #d7bcbc;
+    transition: 1s;
+  }
+
+  .login {
+    width: 103px;
+    height: 41px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    padding: 0;
+    border: none;
+    text-align: center;
+    cursor:pointer;
+  }
+
+  .header-flex {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+
+    /* ----------------------------------Header END--------------------------------- ------------*/
+
+
+  /* ----------------------------  Section preview strat-------------------------------------- */
+
+.preview {
+  width: 892px;
+  height: 389px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.preview-h, .preview-p {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.preview-h {
+font-size: 80px;
+line-height: 96px;
+}
+
+.preview-p {
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 11px;
+}
+
+
+.form-search, .form-search::placeholder {
+  width: 100%;
+  font-family: 'Aleo';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F2785C;
+  border: none;
+  outline:none;
+  background: transparent;
+  margin-left: 41px;
+}
+
+.form-button {
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  width: 347px;
+  height: 59px;
+  background: #0D606F;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  margin: 18px;
+  cursor:pointer;
+}
+
+
+.preview-form {
+  display: flex;
+  justify-content: space-between;
+  width: 892px;
+  height: 95px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+
+ /* ----------------------------  Section preview end-------------------------------------- */
+
+
+ /* ----------------------------  Section steps start-------------------------------------- */
+
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 333px;
+}
+
+
+ h2 {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #F2785C;
+   }
+
+ .steps-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F2785C;
+  border-radius: 16px;
+  width: 100px;
+  height: 100px
+ }
+
+
+.steps-p {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+
+.steps-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1177px;
+  height: 154px;
+  margin-top: 40px;
+}
+
+
+.steps-item, .steps-schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.steps-schedule {
+  margin-left: 69px;
+ }
+ 
+ 
+
+ .popup{
+  width: 450px;
+  height: 360px;
+  background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 30px;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.open-popup{              /*js*/
+  visibility: visible;
+}
+
+
+.wrapper_popup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.wrapper_popup p{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D606F;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+
+
+.wrapper_popup h2 {
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #0D606F;
+text-align: center;
+    }
+
+
+.wrapper_popup button{
+    width: 100%;
+    height: 50px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.wrapper_popup input{
+    width: 100%;
+    height: 35px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  }
+
+  .close:hover {
+  opacity: 1;
+  }
+
+  .close:before, .close:after {
+  position: absolute;
+  left: 10px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+  }
+
+  .close:before {
+  transform: rotate(45deg);
+  }
+  
+  .close:after {
+  transform: rotate(-45deg);
+  }
+ /* ----------------------------  Section steps end-------------------------------------- */
+
+/* ----------------------------  Section destinations start-------------------------------------- */
+
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1042px;
+  margin-top: 97px;
+}
+
+.dest-block {
+  display: flex;
+  justify-content: space-between;
+  width: 2520px;
+  height: 800px;
+  margin-top: 46px;
+  position: relative;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.spain {
+  width: 800px;
+  height: 800px;
+  background-image: url(./img/Spain.jpg);
+  border-radius: 16px;
+}
+
+.usa {
+  width: 800px;
+  height: 800px;
+  background-image: url(./img/USA.jpg);
+  border-radius: 16px;
+}
+
+.japan {
+  width: 800px;
+  height: 800px;
+  background-image: url(./img/Japan.jpg);
+  border-radius: 16px;
+}
+
+
+.dest-p {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+
+.spain, .japan, .usa {
+  display: flex;
+  align-items: flex-end;
+}
+
+.left{
+  position: absolute;
+  width: 300px;
+  height: 1000px;
+  background: #FFFFFF;
+  left: 500px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.right{
+  position: absolute;
+  width: 300px;
+  height: 1000px;
+  background: #FFFFFF;
+  right: 500px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 20px;
+  margin-top: 24px;
+}
+
+
+.circle label {
+  border-radius: 80%;
+  width: 20px;
+  height: 20px;
+  background: rgba(242, 120, 92);
+  display: block;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+.slider-circle{
+  display: none;
+}
+
+.slider-circle:checked ~ label{
+ opacity: 1;
+}
+
+
+
+.find, .see {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  border: none;
+  width: 228px;
+  height: 59px;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background: #0D606F;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: none;
+  margin-top: 40px;
+  cursor:pointer;
+  padding-right: 2px;
+}
+
+.find:hover, .see:hover, .login:hover, .form-button:hover {
+  background: #0e6f80;
+  transition: 0.5s;
+  cursor:pointer;
+}
+
+.find:active, .see:active, .login:active, .form-button:active {
+  background: #082f36;
+}
+
+.find img {
+display: block;
+margin-right: 9px;
+margin-top: 8px;
+}
+
+.see img {
+  display: block;
+  margin-right: 9px;
+  margin-top: 8px;
+} 
+
+.see {
+  padding-right: 8px;
+}
+
+
+
+/* ----------------------------  Section destinations end-------------------------------------- */
+
+/* ---------------------------------Section stories start-------------------------------------- */
+
+.stories-background {
+  background: rgba(255, 255, 255, 0.7);
+  width: 1440px;
+}
+
+.stories-text {
+  display: block;
+  width: 760px;
+  height: 184px;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+span {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.stories-text p {
+  margin-top: 24px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.stories-thailand, .stories-utah, 
+.stories-journey, .stories-mountains {
+  filter: drop-shadow(0px 4px 4px #0D606F);
+  border-radius: 16px;
+  width: 400px;
+  height: 250px;
+}
+
+.stories-thailand {
+background-image: url(./img/Thailand.jpg);
+}
+
+.stories-utah {
+background-image: url(./img/Utah.jpg);
+}
+
+.stories-journey {
+background-image: url(./img/journey.jpg);
+}
+
+.stories-mountains {
+background-image: url(./img/Mountains.jpg);
+}
+
+
+.stories-item {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.stories {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 41.65px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+
+.stories-block {
+  margin-top: 80px;
+  height: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.stories-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  height: 1322px;
+}
+
+
+
+
+/* ---------------------------------Section stories end-------------------------------------- */
+
+/* ----------------------------------------Footer start-------------------------------------- */
+
+.footer {
+  width: 1200px;
+  display: flex;
+  justify-content:flex-end;
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.footer-block {
+  margin: 13.35px 0;
+  width: 728.96px;
+  height: 33.65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  width: 140.96px;
+  height: 33.65px;
+  list-style-type: none;
+  margin-top: 4px;
+}
+
+
+.footer-block p {
+margin-top: 8px;
+}
+
+.social-img:hover {
+opacity: 0.6;
+transition: 1s;
+}
+
+
+/* ----------------------------------------Footer start-------------------------------------- */
+
